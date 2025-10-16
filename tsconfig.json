@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": ["./games/*"]
+    },
     "noEmit": true,
     "target": "esnext",
     "lib": ["esnext", "dom"],

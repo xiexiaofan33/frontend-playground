@@ -1,8 +1,8 @@
 @import './vars.css';
 
 .g-2048 {
-  --side: clamp(3rem, calc(85vw / calc(var(--n, 4) * 1.1 + 0.1)), 5rem);
-  --gap: calc(var(--side) * 0.1);
+  --size: clamp(3rem, calc(90vw / calc(var(--n, 4) * 1.1 + 0.1)), 5rem);
+  --gap: calc(var(--size) * 0.1);
 }
 
 .g-2048 .tile-fallback {

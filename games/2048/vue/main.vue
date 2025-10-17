@@ -61,7 +61,6 @@ onMounted(async () => {
   if (width !== modeProps.value.boardWidth) {
     const value = modeConfigs.findIndex(item => item.boardWidth === width)
     modeIndex.value = value !== -1 ? value : 0
-    console.log(modeIndex.value)
   }
 })
 
